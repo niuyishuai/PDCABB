@@ -6,7 +6,7 @@ A parallel mixed-integer nonlinear optimization solver (parallel DCA-B&amp;B glo
 ```console
 git clone https://github.com/niuyishuai/PDCABB.git
 ```
-  2. Use Visual Studio to compile codes.
+  2. Use Visual Studio to compile codes (DCABB_PARAL or DCABB_DLL).
 
 ## Citation
 
