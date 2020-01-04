@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libf2c\abort_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\backspac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\c_abs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\c_cos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\c_div.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\c_exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\c_log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\c_sin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\c_sqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\cabs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\close.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\ctype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_abs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_acos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_asin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_atan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_atn2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_cnjg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_cos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_cosh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_dim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_imag.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_int.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_lg10.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_mod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_nint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_prod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_sin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_sinh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_sqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_tan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\d_tanh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\derf_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\derfc_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\dfe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\dolio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\dtime_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\due.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\ef1asc_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\ef1cmc_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\endfile.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\erf_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\erfc_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\etime_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\exit_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\f77_aloc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\f77vers.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\fmt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\fmtlib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\ftell_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\getarg_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\getenv_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\h_abs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\h_dim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\h_dnnt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\h_indx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\h_len.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\h_mod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\h_nint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\h_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\hl_ge.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\hl_gt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\hl_le.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\hl_lt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\i_abs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\i_ceiling.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\i_dim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\i_dnnt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\i_indx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\i_len.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\i_len_trim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\i_mod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\i_nint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\i_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\i77vers.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\iargc_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\iio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\ilnw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\inquire.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\l_ge.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\l_gt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\l_le.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\l_lt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\lbitbits.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\lbitshft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\lread.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\lwrite.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\open.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\pow_ci.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\pow_dd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\pow_di.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\pow_hh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\pow_ii.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\pow_ri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\pow_zi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\pow_zz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_abs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_acos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_asin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_atan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_atn2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_cnjg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_cos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_cosh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_dim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_imag.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_int.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_lg10.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_mod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_nint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_sin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_sinh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_sqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_tan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\r_tanh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\rdfmt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\rewind.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\rsfe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\rsli.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\rsne.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\s_cat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\s_cmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\s_copy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\s_paus.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\s_rnge.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\s_stop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\sfe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\sig_die.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\signal_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\signbit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\sue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\system_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\typesize.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\uio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\uninit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\wref.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\wrtfmt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\wsfe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\wsle.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\wsne.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\xwsne.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\z_abs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\z_cos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\z_div.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\z_exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\z_log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\z_sin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libf2c\z_sqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

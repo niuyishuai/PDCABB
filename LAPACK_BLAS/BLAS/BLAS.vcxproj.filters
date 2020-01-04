@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SRC\caxpy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ccopy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\cdotc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\cdotu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\cgbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\cgemm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\cgemv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\cgerc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\cgeru.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\chbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\chemm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\chemv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\cher.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\cher2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\cher2k.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\cherk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\chpmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\chpr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\chpr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\crotg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\cscal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\csrot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\csscal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\cswap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\csymm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\csyr2k.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\csyrk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ctbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ctbsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ctpmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ctpsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ctrmm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ctrmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ctrsm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ctrsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dasum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\daxpy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dcabs1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dcopy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ddot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dgbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dgemm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dgemv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dger.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dnrm2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\drot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\drotg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\drotm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\drotmg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dsbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dscal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dsdot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dspmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dspr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dspr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dswap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dsymm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dsymv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dsyr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dsyr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dsyr2k.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dsyrk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dtbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dtbsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dtpmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dtpsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dtrmm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dtrmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dtrsm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dtrsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dzasum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\dznrm2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\icamax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\idamax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\isamax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\izamax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\lsame.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\sasum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\saxpy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\scabs1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\scasum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\scnrm2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\scopy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\sdot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\sdsdot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\sgbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\sgemm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\sgemv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\sger.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\snrm2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\srot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\srotg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\srotm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\srotmg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ssbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\sscal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\sspmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\sspr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\sspr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\sswap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ssymm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ssymv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ssyr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ssyr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ssyr2k.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ssyrk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\stbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\stbsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\stpmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\stpsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\strmm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\strmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\strsm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\strsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\xerbla.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\xerbla_array.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zaxpy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zcopy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zdotc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zdotu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zdrot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zdscal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zgbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zgemm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zgemv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zgerc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zgeru.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zhbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zhemm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zhemv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zher.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zher2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zher2k.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zherk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zhpmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zhpr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zhpr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zrotg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zscal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zswap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zsymm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zsyr2k.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\zsyrk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ztbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ztbsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ztpmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ztpsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ztrmm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ztrmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ztrsm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ztrsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

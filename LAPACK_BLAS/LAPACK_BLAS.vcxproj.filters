@@ -1,0 +1,5742 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LIBF2C\libf2c\abort_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\arithchk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\backspac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\c_abs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\c_cos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\c_div.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\c_exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\c_log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\c_sin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\c_sqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\cabs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\close.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\ctype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_abs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_acos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_asin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_atan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_atn2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_cnjg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_cos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_cosh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_dim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_imag.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_int.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_lg10.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_mod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_nint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_prod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_sin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_sinh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_sqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_tan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\d_tanh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\derf_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\derfc_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\dfe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\dolio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\dtime_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\due.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\ef1asc_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\ef1cmc_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\endfile.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\erf_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\erfc_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\err.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\etime_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\exit_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\f77_aloc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\f77vers.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\fmt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\fmtlib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\ftell_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\ftell64_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\getarg_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\getenv_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\h_abs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\h_dim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\h_dnnt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\h_indx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\h_len.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\h_mod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\h_nint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\h_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\hl_ge.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\hl_gt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\hl_le.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\hl_lt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\i_abs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\i_ceiling.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\i_dim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\i_dnnt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\i_indx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\i_len.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\i_len_trim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\i_mod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\i_nint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\i_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\i77vers.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\iargc_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\iio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\ilnw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\inquire.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\l_ge.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\l_gt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\l_le.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\l_lt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\lbitbits.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\lbitshft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\lread.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\lwrite.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\open.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\pow_ci.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\pow_dd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\pow_di.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\pow_hh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\pow_ii.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\pow_qq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\pow_ri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\pow_zi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\pow_zz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\qbitbits.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\qbitshft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_abs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_acos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_asin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_atan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_atn2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_cnjg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_cos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_cosh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_dim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_imag.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_int.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_lg10.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_mod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_nint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_sin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_sinh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_sqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_tan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\r_tanh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\rdfmt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\rewind.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\rsfe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\rsli.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\rsne.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\s_cat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\s_cmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\s_copy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\s_paus.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\s_rnge.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\s_stop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\sfe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\sig_die.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\signal_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\signbit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\sue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\system_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\typesize.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\uio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\uninit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\wref.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\wrtfmt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\wsfe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\wsle.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\wsne.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\xwsne.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\z_abs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\z_cos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\z_div.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\z_exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\z_log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\z_sin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBF2C\libf2c\z_sqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\caxpy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ccopy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\cdotc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\cdotu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\cgbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\cgemm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\cgemv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\cgerc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\cgeru.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\chbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\chemm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\chemv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\cher.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\cher2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\cher2k.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\cherk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\chpmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\chpr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\chpr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\crotg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\cscal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\csrot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\csscal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\cswap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\csymm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\csyr2k.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\csyrk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ctbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ctbsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ctpmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ctpsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ctrmm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ctrmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ctrsm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ctrsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dasum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\daxpy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dcabs1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dcopy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ddot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dgbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dgemm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dgemv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dger.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dnrm2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\drot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\drotg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\drotm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\drotmg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dsbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dscal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dsdot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dspmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dspr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dspr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dswap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dsymm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dsymv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dsyr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dsyr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dsyr2k.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dsyrk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dtbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dtbsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dtpmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dtpsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dtrmm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dtrmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dtrsm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dtrsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dzasum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\dznrm2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\icamax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\idamax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\isamax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\izamax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\lsame.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\sasum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\saxpy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\scabs1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\scasum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\scnrm2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\scopy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\sdot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\sdsdot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\sgbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\sgemm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\sgemv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\sger.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\snrm2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\srot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\srotg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\srotm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\srotmg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ssbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\sscal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\sspmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\sspr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\sspr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\sswap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ssymm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ssymv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ssyr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ssyr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ssyr2k.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ssyrk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\stbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\stbsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\stpmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\stpsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\strmm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\strmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\strsm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\strsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\xerbla.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\xerbla_array.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zaxpy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zcopy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zdotc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zdotu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zdrot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zdscal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zgbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zgemm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zgemv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zgerc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zgeru.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zhbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zhemm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zhemv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zher.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zher2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zher2k.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zherk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zhpmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zhpr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zhpr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zrotg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zscal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zswap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zsymm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zsyr2k.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\zsyrk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ztbmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ztbsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ztpmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ztpsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ztrmm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ztrmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ztrsm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLAS\SRC\ztrsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cbdsqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgbbrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgbcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgbequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgbequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgbrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgbrfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgbsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgbsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgbsvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgbtf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgbtrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgbtrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgebak.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgebal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgebd2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgebrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgecon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgeequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgeequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgees.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgeesx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgeev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgeevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgegs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgegv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgehd2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgehrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgelq2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgelqf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgels.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgelsd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgelss.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgelsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgelsy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgeql2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgeqlf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgeqp3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgeqpf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgeqr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgeqrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgerfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgerfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgerq2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgerqf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgesc2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgesdd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgesv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgesvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgesvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgesvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgetc2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgetf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgetrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgetri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgetrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cggbak.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cggbal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgges.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cggesx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cggev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cggevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cggglm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgghrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgglse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cggqrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cggrqf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cggsvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cggsvp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgtcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgtrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgtsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgtsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgttrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgttrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cgtts2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chbev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chbevd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chbevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chbgst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chbgv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chbgvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chbgvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chbtrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\checon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cheequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cheev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cheevd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cheevr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cheevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chegs2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chegst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chegv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chegvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chegvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cherfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cherfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chesv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chesvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chesvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chetd2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chetf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chetrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chetrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chetri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chetrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chfrk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chgeqz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chla_transtype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chpcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chpev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chpevd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chpevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chpgst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chpgv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chpgvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chpgvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chprfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chpsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chpsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chptrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chptrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chptri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chptrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chsein.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\chseqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_gbamv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_gbrcond_c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_gbrcond_x.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_gbrfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_gbrpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_geamv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_gercond_c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_gercond_x.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_gerfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_heamv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_hercond_c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_hercond_x.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_herfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_herpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_lin_berr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_porcond_c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_porcond_x.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_porfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_porpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_rpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_syamv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_syrcond_c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_syrcond_x.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_syrfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_syrpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cla_wwaddw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clabrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clacgv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clacn2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clacon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clacp2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clacpy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clacrm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clacrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cladiv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claed0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claed7.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claed8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claein.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claesy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claev2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clag2z.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clags2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clagtm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clahef.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clahqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clahr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clahrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claic1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clals0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clalsa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clalsd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clangb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clange.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clangt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clanhb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clanhe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clanhf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clanhp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clanhs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clanht.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clansb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clansp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clansy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clantb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clantp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clantr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clapll.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clapmt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claqgb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claqge.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claqhb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claqhe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claqhp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claqp2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claqps.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claqr0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claqr1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claqr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claqr3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claqr4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claqr5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claqsb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claqsp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claqsy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clar1v.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clar2v.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clarcm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clarf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clarfb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clarfg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clarfp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clarft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clarfx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clargv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clarnv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clarrv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clarscl2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clartg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clartv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clarz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clarzb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clarzt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clascl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clascl2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claset.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clasr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\classq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\claswp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clasyf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clatbs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clatdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clatps.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clatrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clatrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clatrz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clatzm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clauu2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\clauum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpbcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpbequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpbrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpbstf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpbsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpbsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpbtf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpbtrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpbtrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpftrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpftri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpftrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpocon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpoequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpoequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cporfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cporfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cposv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cposvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cposvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpotf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpotrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpotri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpotrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cppcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cppequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpprfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cppsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cppsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpptrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpptri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpptrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpstf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpstrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cptcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpteqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cptrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cptsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cptsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpttrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cpttrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cptts2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\crot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cspcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cspmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cspr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csprfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cspsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cspsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csptrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csptri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csptrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csrscl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cstedc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cstegr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cstein.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cstemr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csteqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csycon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csyequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csymv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csyr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csyrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csyrfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csysv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csysvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csysvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csytf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csytrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csytri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\csytrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctbcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctbrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctbtrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctfsm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctftri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctfttp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctfttr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctgevc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctgex2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctgexc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctgsen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctgsja.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctgsna.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctgsy2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctgsyl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctpcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctprfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctptri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctptrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctpttf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctpttr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctrcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctrevc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctrexc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctrrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctrsen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctrsna.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctrsyl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctrti2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctrtri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctrtrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctrttf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctrttp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctzrqf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ctzrzf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cung2l.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cung2r.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cungbr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cunghr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cungl2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cunglq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cungql.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cungqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cungr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cungrq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cungtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cunm2l.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cunm2r.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cunmbr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cunmhr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cunml2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cunmlq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cunmql.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cunmqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cunmr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cunmr3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cunmrq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cunmrz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cunmtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cupgtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\cupmtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dbdsdc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dbdsqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ddisna.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgbbrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgbcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgbequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgbequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgbrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgbrfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgbsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgbsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgbsvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgbtf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgbtrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgbtrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgebak.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgebal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgebd2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgebrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgecon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgeequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgeequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgees.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgeesx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgeev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgeevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgegs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgegv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgehd2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgehrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgejsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgelq2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgelqf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgels.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgelsd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgelss.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgelsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgelsy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgeql2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgeqlf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgeqp3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgeqpf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgeqr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgeqrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgerfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgerfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgerq2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgerqf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgesc2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgesdd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgesv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgesvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgesvj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgesvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgesvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgetc2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgetf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgetrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgetri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgetrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dggbak.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dggbal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgges.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dggesx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dggev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dggevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dggglm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgghrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgglse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dggqrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dggrqf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dggsvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dggsvp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgsvj0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgsvj1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgtcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgtrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgtsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgtsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgttrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgttrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dgtts2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dhgeqz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dhsein.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dhseqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\disnan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_gbamv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_gbrcond.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_gbrfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_gbrpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_geamv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_gercond.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_gerfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_lin_berr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_porcond.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_porfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_porpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_rpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_syamv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_syrcond.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_syrfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_syrpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dla_wwaddw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlabad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlabrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlacn2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlacon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlacpy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dladiv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlae2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaebz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaed0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaed1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaed2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaed3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaed4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaed5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaed6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaed7.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaed8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaed9.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaeda.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaein.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaev2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaexc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlag2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlag2s.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlags2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlagtf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlagtm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlagts.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlagv2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlahqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlahr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlahrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaic1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaisnan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaln2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlals0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlalsa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlalsd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlamch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlamrg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaneg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlangb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlange.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlangt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlanhs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlansb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlansf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlansp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlanst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlansy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlantb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlantp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlantr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlanv2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlapll.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlapmt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlapy2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlapy3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaqgb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaqge.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaqp2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaqps.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaqr0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaqr1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaqr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaqr3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaqr4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaqr5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaqsb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaqsp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaqsy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaqtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlar1v.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlar2v.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarfb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarfg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarfp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarfx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlargv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarnv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarra.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarrb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarrc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarre.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarrj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarrk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarrr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarrv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarscl2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlartg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlartv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaruv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarzb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlarzt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlas2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlascl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlascl2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasd0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasd1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasd2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasd3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasd4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasd5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasd6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasd7.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasd8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasda.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasdq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasdt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaset.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasq1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasq2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasq3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasq4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasq5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasq6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlassq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasv2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlaswp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasy2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlasyf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlat2s.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlatbs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlatdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlatps.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlatrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlatrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlatrz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlatzm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlauu2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dlauum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dopgtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dopmtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dorg2l.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dorg2r.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dorgbr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dorghr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dorgl2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dorglq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dorgql.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dorgqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dorgr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dorgrq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dorgtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dorm2l.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dorm2r.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dormbr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dormhr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dorml2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dormlq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dormql.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dormqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dormr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dormr3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dormrq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dormrz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dormtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpbcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpbequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpbrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpbstf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpbsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpbsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpbtf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpbtrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpbtrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpftrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpftri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpftrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpocon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpoequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpoequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dporfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dporfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dposv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dposvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dposvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpotf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpotrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpotri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpotrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dppcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dppequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpprfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dppsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dppsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpptrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpptri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpptrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpstf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpstrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dptcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpteqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dptrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dptsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dptsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpttrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dpttrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dptts2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\drscl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsbev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsbevd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsbevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsbgst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsbgv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsbgvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsbgvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsbtrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsfrk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsgesv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dspcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dspev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dspevd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dspevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dspgst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dspgv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dspgvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dspgvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsposv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsprfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dspsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dspsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsptrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsptrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsptri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsptrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dstebz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dstedc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dstegr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dstein.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dstemr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsteqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsterf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dstev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dstevd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dstevr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dstevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsycon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsyequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsyev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsyevd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsyevr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsyevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsygs2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsygst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsygv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsygvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsygvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsyrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsyrfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsysv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsysvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsysvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsytd2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsytf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsytrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsytrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsytri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dsytrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtbcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtbrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtbtrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtfsm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtftri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtfttp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtfttr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtgevc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtgex2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtgexc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtgsen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtgsja.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtgsna.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtgsy2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtgsyl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtpcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtprfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtptri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtptrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtpttf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtpttr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtrcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtrevc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtrexc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtrrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtrsen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtrsna.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtrsyl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtrti2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtrtri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtrtrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtrttf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtrttp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtzrqf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dtzrzf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\dzsum1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\icmax1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ieeeck.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ilaclc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ilaclr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\iladiag.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\iladlc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\iladlr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ilaenv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ilaprec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ilaslc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ilaslr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ilatrans.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ilauplo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ilaver.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ilazlc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ilazlr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\iparmq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\izmax1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\lsamen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\maxloc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sbdsdc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sbdsqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\scsum1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sdisna.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgbbrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgbcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgbequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgbequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgbrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgbrfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgbsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgbsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgbsvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgbtf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgbtrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgbtrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgebak.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgebal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgebd2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgebrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgecon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgeequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgeequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgees.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgeesx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgeev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgeevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgegs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgegv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgehd2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgehrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgejsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgelq2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgelqf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgels.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgelsd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgelss.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgelsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgelsy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgeql2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgeqlf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgeqp3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgeqpf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgeqr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgeqrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgerfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgerfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgerq2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgerqf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgesc2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgesdd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgesv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgesvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgesvj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgesvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgesvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgetc2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgetf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgetrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgetri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgetrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sggbak.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sggbal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgges.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sggesx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sggev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sggevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sggglm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgghrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgglse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sggqrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sggrqf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sggsvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sggsvp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgsvj0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgsvj1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgtcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgtrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgtsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgtsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgttrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgttrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sgtts2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\shgeqz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\shsein.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\shseqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sisnan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_gbamv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_gbrcond.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_gbrfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_gbrpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_geamv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_gercond.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_gerfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_lin_berr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_porcond.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_porfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_porpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_rpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_syamv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_syrcond.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_syrfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_syrpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sla_wwaddw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slabad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slabrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slacn2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slacon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slacpy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sladiv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slae2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaebz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaed0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaed1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaed2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaed3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaed4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaed5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaed6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaed7.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaed8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaed9.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaeda.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaein.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaev2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaexc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slag2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slag2d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slags2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slagtf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slagtm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slagts.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slagv2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slahqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slahr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slahrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaic1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaisnan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaln2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slals0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slalsa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slalsd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slamrg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaneg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slangb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slange.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slangt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slanhs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slansb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slansf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slansp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slanst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slansy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slantb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slantp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slantr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slanv2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slapll.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slapmt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slapy2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slapy3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaqgb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaqge.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaqp2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaqps.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaqr0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaqr1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaqr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaqr3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaqr4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaqr5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaqsb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaqsp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaqsy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaqtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slar1v.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slar2v.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarfb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarfg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarfp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarfx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slargv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarnv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarra.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarrb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarrc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarre.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarrj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarrk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarrr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarrv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarscl2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slartg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slartv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaruv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarzb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slarzt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slas2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slascl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slascl2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasd0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasd1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasd2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasd3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasd4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasd5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasd6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasd7.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasd8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasda.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasdq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasdt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaset.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasq1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasq2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasq3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasq4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasq5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasq6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slassq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasv2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slaswp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasy2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slasyf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slatbs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slatdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slatps.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slatrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slatrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slatrz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slatzm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slauu2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\slauum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sopgtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sopmtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sorg2l.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sorg2r.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sorgbr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sorghr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sorgl2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sorglq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sorgql.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sorgqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sorgr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sorgrq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sorgtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sorm2l.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sorm2r.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sormbr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sormhr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sorml2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sormlq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sormql.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sormqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sormr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sormr3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sormrq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sormrz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sormtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spbcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spbequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spbrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spbstf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spbsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spbsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spbtf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spbtrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spbtrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spftrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spftri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spftrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spocon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spoequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spoequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sporfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sporfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sposv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sposvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sposvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spotf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spotrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spotri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spotrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sppcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sppequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spprfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sppsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sppsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spptrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spptri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spptrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spstf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spstrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sptcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spteqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sptrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sptsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sptsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spttrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\spttrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sptts2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\srscl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssbev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssbevd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssbevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssbgst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssbgv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssbgvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssbgvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssbtrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssfrk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sspcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sspev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sspevd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sspevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sspgst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sspgv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sspgvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sspgvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssprfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sspsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sspsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssptrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssptrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssptri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssptrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sstebz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sstedc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sstegr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sstein.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sstemr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssteqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssterf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sstev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sstevd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sstevr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\sstevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssycon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssyequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssyev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssyevd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssyevr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssyevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssygs2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssygst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssygv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssygvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssygvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssyrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssyrfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssysv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssysvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssysvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssytd2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssytf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssytrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssytrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssytri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ssytrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stbcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stbrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stbtrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stfsm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stftri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stfttp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stfttr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stgevc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stgex2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stgexc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stgsen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stgsja.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stgsna.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stgsy2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stgsyl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stpcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stprfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stptri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stptrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stpttf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stpttr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\strcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\strevc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\strexc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\strrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\strsen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\strsna.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\strsyl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\strti2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\strtri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\strtrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\strttf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\strttp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stzrqf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\stzrzf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\xerbla.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\xerbla_array.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zbdsqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zcgesv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zcposv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zdrscl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgbbrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgbcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgbequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgbequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgbrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgbrfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgbsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgbsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgbsvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgbtf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgbtrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgbtrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgebak.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgebal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgebd2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgebrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgecon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgeequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgeequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgees.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgeesx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgeev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgeevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgegs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgegv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgehd2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgehrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgelq2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgelqf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgels.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgelsd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgelss.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgelsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgelsy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgeql2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgeqlf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgeqp3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgeqpf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgeqr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgeqrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgerfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgerfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgerq2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgerqf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgesc2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgesdd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgesv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgesvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgesvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgesvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgetc2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgetf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgetrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgetri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgetrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zggbak.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zggbal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgges.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zggesx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zggev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zggevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zggglm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgghrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgglse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zggqrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zggrqf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zggsvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zggsvp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgtcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgtrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgtsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgtsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgttrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgttrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zgtts2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhbev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhbevd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhbevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhbgst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhbgv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhbgvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhbgvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhbtrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhecon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zheequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zheev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zheevd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zheevr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zheevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhegs2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhegst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhegv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhegvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhegvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zherfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zherfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhesv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhesvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhesvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhetd2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhetf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhetrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhetrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhetri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhetrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhfrk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhgeqz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhpcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhpev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhpevd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhpevx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhpgst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhpgv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhpgvd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhpgvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhprfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhpsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhpsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhptrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhptrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhptri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhptrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhsein.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zhseqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_gbamv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_gbrcond_c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_gbrcond_x.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_gbrfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_gbrpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_geamv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_gercond_c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_gercond_x.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_gerfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_heamv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_hercond_c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_hercond_x.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_herfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_herpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_lin_berr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_porcond_c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_porcond_x.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_porfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_porpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_rpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_syamv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_syrcond_c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_syrcond_x.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_syrfsx_extended.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_syrpvgrw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zla_wwaddw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlabrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlacgv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlacn2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlacon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlacp2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlacpy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlacrm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlacrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zladiv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaed0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaed7.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaed8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaein.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaesy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaev2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlag2c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlags2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlagtm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlahef.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlahqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlahr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlahrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaic1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlals0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlalsa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlalsd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlangb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlange.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlangt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlanhb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlanhe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlanhf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlanhp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlanhs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlanht.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlansb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlansp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlansy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlantb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlantp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlantr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlapll.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlapmt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaqgb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaqge.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaqhb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaqhe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaqhp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaqp2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaqps.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaqr0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaqr1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaqr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaqr3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaqr4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaqr5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaqsb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaqsp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaqsy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlar1v.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlar2v.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlarcm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlarf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlarfb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlarfg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlarfp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlarft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlarfx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlargv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlarnv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlarrv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlarscl2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlartg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlartv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlarz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlarzb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlarzt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlascl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlascl2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaset.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlasr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlassq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlaswp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlasyf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlat2c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlatbs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlatdf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlatps.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlatrd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlatrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlatrz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlatzm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlauu2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zlauum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpbcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpbequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpbrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpbstf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpbsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpbsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpbtf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpbtrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpbtrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpftrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpftri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpftrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpocon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpoequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpoequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zporfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zporfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zposv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zposvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zposvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpotf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpotrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpotri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpotrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zppcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zppequ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpprfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zppsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zppsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpptrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpptri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpptrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpstf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpstrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zptcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpteqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zptrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zptsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zptsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpttrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zpttrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zptts2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zrot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zspcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zspmv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zspr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsprfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zspsv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zspsvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsptrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsptri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsptrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zstedc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zstegr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zstein.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zstemr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsteqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsycon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsyequb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsymv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsyr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsyrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsyrfsx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsysv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsysvx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsysvxx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsytf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsytrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsytri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zsytrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztbcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztbrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztbtrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztfsm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztftri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztfttp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztfttr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztgevc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztgex2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztgexc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztgsen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztgsja.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztgsna.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztgsy2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztgsyl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztpcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztprfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztptri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztptrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztpttf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztpttr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztrcon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztrevc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztrexc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztrrfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztrsen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztrsna.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztrsyl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztrti2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztrtri.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztrtrs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztrttf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztrttp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztzrqf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\ztzrzf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zung2l.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zung2r.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zungbr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zunghr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zungl2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zunglq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zungql.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zungqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zungr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zungrq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zungtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zunm2l.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zunm2r.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zunmbr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zunmhr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zunml2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zunmlq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zunmql.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zunmqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zunmr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zunmr3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zunmrq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zunmrz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zunmtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zupgtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAPACK\zupmtr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LIBF2C\libf2c\arith.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBF2C\libf2c\ctype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBF2C\libf2c\fio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBF2C\libf2c\fmt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBF2C\libf2c\fp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBF2C\libf2c\lio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBF2C\libf2c\rawio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBF2C\libf2c\signal1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBF2C\libf2c\sysdep1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
