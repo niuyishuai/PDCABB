@@ -1,0 +1,10 @@
+min x1 - 2x2 + 3x3
+s.t.
+c1: x1 - x2 <=5
+c2: 2x1 - x3 <= -1
+c3: x2 + x3 =6
+bounds
+-5 <= x1 <= 5
+x2 free
+1 <= x3 <= 6
+end
