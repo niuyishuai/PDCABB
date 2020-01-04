@@ -55,7 +55,7 @@ void testDCABB(const char* filename) {
 		dcabb->SetBoolParam(DCABB::DCABB_PARAM_BOOL::USEPARAL, true);
 		dcabb->SetIntParam(DCABB::DCABB_PARAM_INT::NBPARALNODES, omp_get_num_procs());
 		dcabb->SetDblParam(DCABB::DCABB_PARAM_DBL::TOLGAP, 1e-2);
-		dcabb->SetDblParam(DCABB::DCABB_PARAM_DBL::TOLGAPRESTARTDCA, 1e-1); // INFINITY for non restart dca
+		dcabb->SetDblParam(DCABB::DCABB_PARAM_DBL::TOLGAPRESTARTDCA, 2e-2); // INFINITY for non restart dca
 		dcabb->SetBoolParam(DCABB::DCABB_PARAM_BOOL::VERBOSE, true);
 		// optimize
 		/*	vector<double> cputimes;

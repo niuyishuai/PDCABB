@@ -1,0 +1,6 @@
+
+.vs/*
+*.obj
+DCABB/x64
+LAPACK_BLAS/x64
+x64
