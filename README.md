@@ -1,6 +1,8 @@
 # PDCABB
 A parallel mixed-integer nonlinear optimization solver (parallel DCA-B&amp;B global optimization algorithm)
 
+This project is supported by the National Natural Science Foundation of China (Grant No: 11601327) and the Key Construction National “985” Program of China (Grant No: WF220426001).
+
 ## Installation
   1. Download the package to a local folder by running:
 ```console
