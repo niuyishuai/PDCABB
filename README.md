@@ -13,7 +13,7 @@ git clone https://github.com/niuyishuai/PDCABB.git
 ## Citation
 
 ```
-@Misc{Polylab,
+@Misc{PDCABB,
 	title = {PDCABB: A parallel mixed-integer nonlinear optimization solver (parallel DCA-BB global optimization algorithm)},
 	author = {Yi-Shuai Niu},	
 	year = {2017},
