@@ -27,4 +27,4 @@ Released under MIT license
 
 ## Contact
 
-niuyishuai82@gmail.com
+niuyishuai@sjtu.edu.cn
