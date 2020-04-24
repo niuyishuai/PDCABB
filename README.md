@@ -17,7 +17,7 @@ git clone https://github.com/niuyishuai/PDCABB.git
 	title = {PDCABB: A parallel mixed-integer nonlinear optimization solver (parallel DCA-BB global optimization algorithm)},
 	author = {Yi-Shuai Niu},	
 	year = {2017},
-	howpublished = {\url{https://github.com/niuyishuai/PDCABB}}
+	url= {https://github.com/niuyishuai/PDCABB}
 }
 ```
 
